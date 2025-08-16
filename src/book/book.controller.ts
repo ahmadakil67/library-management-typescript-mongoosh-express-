@@ -1,7 +1,5 @@
 import { Request, Response } from 'express';
-import { IBook } from './book.interface';
 import Book from './book.model';
-
 
 // Create a new book
 export const createBook = async (req: Request, res: Response) => {
